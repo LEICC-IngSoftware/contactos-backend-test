@@ -23,7 +23,7 @@ var indexRouter = require('./routes/index');
 var app = express();
 const cors = require('cors');
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5173']
+    origin: ['http://localhost:3000', 'http://localhost:5173','https://contactos-i6vt.onrender.com']
 }));
 app.use(logger('dev'));
 app.use(express.json());
